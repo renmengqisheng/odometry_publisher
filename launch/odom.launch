@@ -1,0 +1,6 @@
+<launch>
+  <node name="odom" pkg="odometry_publisher" type="odometry_publisher_position" output="screen">
+      <param name="wheelBase"              value="0.2475"/>
+      <param name="coeffient"              value="1.049"/>
+  </node>
+</launch>
